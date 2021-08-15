@@ -9,4 +9,4 @@ This is the Google Play link : https://play.google.com/store/apps/details?id=com
 
 If this repositry could be any helpful for your work, you can support me by buying cup of coffee for my school expenses. Thank you :).
 
-buymeacoffee.com/hasaneke                
+  buymeacoffee.com/hasaneke                
