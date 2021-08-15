@@ -6,3 +6,7 @@ I am a begginner in Java app development and this is the first fully application
 If you guys are trying to learn how to fetch data from a server by API`s in Java, you can consider my codes as a good example for it.
 
 This is the Google Play link : https://play.google.com/store/apps/details?id=com.hasaneke.yourlolspy&gl=TR
+
+If this repositry could be any helpful for your work, you can support me by buying cup of coffee for my school expenses. Thank you :).
+
+buymeacoffee.com/hasaneke                
