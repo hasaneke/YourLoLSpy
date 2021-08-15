@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.hasaneke.yourlolspy.Views.ResultActivity">
+
+    <ImageView
+        android:id="@+id/soloImageView"
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/icon"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/soloRankedText"
+        app:layout_constraintEnd_toStartOf="@+id/flexImageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/flexImageView"
+        android:layout_width="160dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/icon"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/flexRankedText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/flextWinRateText"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="56dp"
+        android:height="30dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toEndOf="@+id/soloWinRateText"
+        app:layout_constraintTop_toBottomOf="@+id/flexRankedText" />
+
+    <TextView
+        android:id="@+id/soloWinRateText"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/soloRankedText" />
+
+    <TextView
+        android:id="@+id/soloRankedText"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="452dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/flexRankedText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/flexRankedText"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/soloRankedText" />
+
+    <TextView
+        android:id="@+id/summonerNameText"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

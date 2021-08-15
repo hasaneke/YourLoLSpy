@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/backGroundColor"
+    >
+
+    <Button
+        android:id="@+id/krServer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="KR"
+        android:background="@drawable/serverbutton"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/euServer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="EU"
+        android:background="@drawable/serverbutton"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/euwServer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="EUW"
+        android:background="@drawable/serverbutton"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/naServer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="NA"
+        android:background="@drawable/serverbutton"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/trServer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="TR"
+        android:background="@drawable/serverbutton"
+        android:textSize="24dp" />
+</LinearLayout>
